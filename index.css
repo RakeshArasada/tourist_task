@@ -1,42 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{margin: 0;
   padding: 0;
-  font-family:'poppins','sans-serif';}
+  font-family:'poppins','sans-serif';
+overflow: hidden;}
+.hero{height: 100vh;
+      width: 100%;
+      background-size: cover;}
 body{background-image:url(https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-     background-size:cover;
-     background-repeat: no-repeat;
-     background-position: center;
-    overflow: hidden;}
+     background-size:100% 15%;
+     background-repeat: no-repeat;}
 .card{color: black;
     background-color: white;
-    height:120px;
+    height:400px;
     width:100%;
     border-radius: 25px;
     text-align:center;
     border:1px solid white;
     font-size:70px;
     letter-spacing: 8px;
-    margin-top:690px;
+    margin-top:450px;
     transition-duration:2s;
     transition-timing-function: ease-in-out;}
-.p1{color: black;
-    background-color: white;
-    height:360px;
-    width:100%;
-    border-radius: 19px;
-    overflow: hidden;
-    text-align:center;
-    border:1px solid black;
-    font-size:70px;
-    letter-spacing: 8px;
-    margin-top:450px;}
 button{background-color: blue;
        color: white;
        border-radius:50px;
        width: 130px;
        padding: 12px;}
-.card:hover{height:360px;
-            margin-top: 450px;}
 h1{color: white;}
 a{text-decoration: none;
     color: white;}
+    .img{background-image: url(https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+        background-size:cover;
+        background-repeat: no-repeat;}
+    .back{background-color:rgba(63, 74, 211,0.8);
+         width: 100%;
+         height: 100vh;
+         }
+    h1{color: white;
+        text-align: center;}
+    .border{border: 1px solid white;
+            height: 90px;
+            background-color: white;
+            width: 800px;
+            margin-left: 375px;
+            padding: 12px;
+            border-radius: 15px;}
+    p{text-indent: 12px;}
+    .button1{background-color: black;
+           color: white;
+           border-radius:50px;
+           width: 130px;
+           padding: 12px;
+           margin-left:375px;
+           margin-top:15px ;}
+
+           .img1{background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/6087.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+        overflow: hidden;}
+        .back1{background-color:rgba(63, 74, 211,0.9);
+             width: 100%;
+             height: 100vh;
+             }
+        h1{color: white;
+           text-align: center;}
+        .card-image{text-align: center;background-color:white;
+            padding:12px;
+            width:450px;
+            margin-left:34%;
+            margin-top:1%;
+            margin-bottom: -10px;}
+        .card1{text-align: center;
+            background-color:white;
+            padding:12px;
+            width:450px;
+            margin-left:34%;
+            color:black;}
+        .button2{background-color: black;
+               color: white;
+               border-radius:50px;
+               width: 130px;
+               padding: 12px;
+               margin-left:680px;
+               margin-top:15px;}
+        a{text-decoration: none;
+          color: white;}
